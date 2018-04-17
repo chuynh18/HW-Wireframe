@@ -20,13 +20,15 @@ div {
     text-align: center;
     margin: 10px 0px 20px;
     width: 100%;
-    display: table;
+    height: 340px;
+    overflow: hidden;
 }
 
 section {
     background: #ebebeb;
     margin-top: 10px;
     width: 495px;
+    height: 330px;
     padding: 10px;
     float: left;
 }
@@ -37,7 +39,7 @@ I want to make it so that <aside> is as tall as <section>,
 but have no clue how without pixel pushing */
 aside {
     background: #ebebeb;
-    height: 337px;
+    height: 400px;
     width: 44%;
     float: right;
     margin-top: 10px;
