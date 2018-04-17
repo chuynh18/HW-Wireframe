@@ -15,7 +15,7 @@ header, nav, footer {
     margin-top: 10px;
 }
 
-/* this feels hacky */
+/* Trying overflow: hidden; tip, thanks David */
 div {
     text-align: center;
     margin: 10px 0px 20px;
@@ -33,10 +33,9 @@ section {
     float: left;
 }
 
-/* this is clearly a terrible solution, I do not want
-to pixel push but have no idea how to fix this
-I want to make it so that <aside> is as tall as <section>,
-but have no clue how without pixel pushing */
+/* since the div holding the section and aside is purposefully restricted to 340px,
+I figure it's okay to give the aside an excessive length of 400px.  Fingers crossed. */
+
 aside {
     background: #ebebeb;
     height: 400px;
